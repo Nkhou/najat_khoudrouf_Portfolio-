@@ -1,0 +1,230 @@
+import { RevealOnScroll } from "../RevealOnScroll";
+
+export const Projects = () => {
+    return (
+        <section
+            id="projects"
+            className="min-h-screen flex items-center justify-center py-20"
+        >
+            <RevealOnScroll>
+                <div className="max-w-5xl mx-auto px-4">
+                    <h2 className="gradient-text">
+                        {" "}
+                        Featured Projects
+                    </h2>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+  {/* <!-- Full-Stack Project: ft_transcendence --> */}
+  <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+    <h3 className="text-xl font-bold mb-2">ft_transcendence</h3>
+    <p className="text-gray-400 mb-4">
+      Designed a real-time multiplayer gaming platform using Django and React/TypeScript, implementing WebSocket communication and secure user authentication.
+    </p>
+    <div className="flex flex-wrap gap-2 mb-4">
+      {["Django", "React", "TypeScript", "WebSocket"].map((tech, key) => (
+        <span
+          key={key}
+          className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
+        >
+          {tech}
+        </span>
+      ))}
+    </div>
+    <div className="flex justify-between items-center">
+      <a
+        href="https://github.com/Nkhou/ft_transcendence"
+        className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+      >
+        View Project →
+      </a>
+    </div>
+  </div>
+
+  {/* <!-- System Engineering Project: ft_irc --> */}
+  <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+    <h3 className="text-xl font-bold mb-2">ft_irc</h3>
+    <p className="text-gray-400 mb-4">
+      Developed a robust IRC server implementing RFC 2812 protocol specifications in C++, handling concurrent connections and complex state management.
+    </p>
+    <div className="flex flex-wrap gap-2 mb-4">
+      {["C++", "IRC", "RFC 2812", "Concurrency"].map((tech, key) => (
+        <span
+          key={key}
+          className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
+        >
+          {tech}
+        </span>
+      ))}
+    </div>
+    <div className="flex justify-between items-center">
+      <a
+        href="https://github.com/Nkhou/ft_irc"
+        className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+      >
+        View Project →
+      </a>
+    </div>
+  </div>
+
+  {/* <!-- System Security Project: born2beroot --> */}
+  <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+    <h3 className="text-xl font-bold mb-2">born2beroot</h3>
+    <p className="text-gray-400 mb-4">
+      Configured a secure virtual infrastructure with full system hardening, including LVM, SSH, and UFW.
+    </p>
+    <div className="flex flex-wrap gap-2 mb-4">
+      {["Linux", "System Hardening", "LVM", "SSH", "UFW"].map((tech, key) => (
+        <span
+          key={key}
+          className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
+        >
+          {tech}
+        </span>
+      ))}
+    </div>
+    <div className="flex justify-between items-center">
+      <a
+        href="https://github.com/Nkhou/born2beroot"
+        className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+      >
+        View Project →
+      </a>
+    </div>
+  </div>
+
+  {/* <!-- Graphics Project: cub3d --> */}
+  <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+    <h3 className="text-xl font-bold mb-2">cub3d</h3>
+    <p className="text-gray-400 mb-4">
+      Designed a ray-casting 3D rendering engine with optimized rendering pipeline, texture mapping, and collision detection.
+    </p>
+    <div className="flex flex-wrap gap-2 mb-4">
+      {["C", "3D Rendering", "Ray-Casting", "Collision Detection"].map((tech, key) => (
+        <span
+          key={key}
+          className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
+        >
+          {tech}
+        </span>
+      ))}
+    </div>
+    <div className="flex justify-between items-center">
+      <a
+        href="https://github.com/Nkhou/cub3d"
+        className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+      >
+        View Project →
+      </a>
+    </div>
+  </div>
+
+  {/* <!-- Network Project: minitalk --> */}
+  <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+    <h3 className="text-xl font-bold mb-2">minitalk</h3>
+    <p className="text-gray-400 mb-4">
+      Implemented a reliable client-server communication using UNIX signals with error handling.
+    </p>
+    <div className="flex flex-wrap gap-2 mb-4">
+      {["C", "UNIX Signals", "Client-Server", "Error Handling"].map((tech, key) => (
+        <span
+          key={key}
+          className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
+        >
+          {tech}
+        </span>
+      ))}
+    </div>
+    <div className="flex justify-between items-center">
+      <a
+        href="https://github.com/Nkhou/minitalk"
+        className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+      >
+        View Project →
+      </a>
+      </div>
+  </div>
+
+  {/* <!-- System Engineering Project: inception --> */}
+  <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+    <h3 className="text-xl font-bold mb-2">inception</h3>
+    <p className="text-gray-400 mb-4">
+      Architected a containerized production infrastructure using Docker, customized Debian Linux images, and automated deployment workflows.
+    </p>
+    <div className="flex flex-wrap gap-2 mb-4">
+      {["Docker", "Linux", "Debian", "CI/CD"].map((tech, key) => (
+        <span
+          key={key}
+          className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
+        >
+          {tech}
+        </span>
+      ))}
+    </div>
+    <div className="flex justify-between items-center">
+      <a
+        href="https://github.com/Nkhou/inception"
+        className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+      >
+        View Project →
+      </a>
+    </div>
+  </div>
+
+  {/* <!-- System Project: minishell --> */}
+  <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+    <h3 className="text-xl font-bold mb-2">minishell</h3>
+    <p className="text-gray-400 mb-4">
+      Created a custom shell implementation in C, supporting built-in commands and external program execution.
+    </p>
+    <div className="flex flex-wrap gap-2 mb-4">
+      {["C", "Shell", "Linux", "Command Execution"].map((tech, key) => (
+        <span
+          key={key}
+          className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
+        >
+          {tech}
+        </span>
+      ))}
+    </div>
+    <div className="flex justify-between items-center">
+      <a
+        href="https://github.com/Nkhou/minishell"
+        className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+      >
+        View Project →
+      </a>
+    </div>
+  </div>
+
+  {/* <!-- Network Project: NetPractice --> */}
+  <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+    <h3 className="text-xl font-bold mb-2">NetPractice</h3>
+    <p className="text-gray-400 mb-4">
+      Implemented advanced network concepts, including subnetting, routing, and TCP/IP configuration.
+    </p>
+    <div className="flex flex-wrap gap-2 mb-4">
+      {["Networking", "Subnetting", "Routing", "TCP/IP"].map((tech, key) => (
+        <span
+          key={key}
+          className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
+        >
+          {tech}
+        </span>
+      ))}
+    </div>
+    <div className="flex justify-between items-center">
+      <a
+        href="https://github.com/Nkhou/NetPractice"
+        className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+      >
+        View Project →
+      </a>
+    </div>
+  </div>
+</div>
+
+
+                </div>
+            </RevealOnScroll>
+        </section>
+    );
+};
