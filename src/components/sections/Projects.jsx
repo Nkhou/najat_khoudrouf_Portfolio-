@@ -138,14 +138,115 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="https://github.com/Nkhou/minishell"
+                  href="https://github.com/Sboulal/minishell"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
                 </a>
               </div>
             </div>
-            
+            {/* <!-- System Project: philosopher --> */}
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+              <h3 className="text-xl font-bold mb-2">philosopher</h3>
+              <p className="text-gray-400 mb-4">
+                Created a multi-threaded simulation of the Dining Philosophers problem, implementing mutex locks and semaphores to prevent deadlocks and resource contention.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {["C", "Threads", "Concurrency", "Resource Management"].map((tech, key) => (
+                  <span
+                    key={key}
+                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+              <div className="flex justify-between items-center">
+                <a
+                  href="https://github.com/Nkhou/philosopher"
+                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                >
+                  View Project →
+                </a>
+              </div>
+            </div>
+            {/* <!-- System Project: ft_printf --> */}
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+              <h3 className="text-xl font-bold mb-2">ft_printf</h3>
+              <p className="text-gray-400 mb-4">
+                Reimplemented the printf function in C from scratch, supporting multiple format specifiers and handling various data types and modifiers.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {["C", "String Manipulation", "Variadic Functions", "Memory Management"].map((tech, key) => (
+                  <span
+                    key={key}
+                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+              <div className="flex justify-between items-center">
+                <a
+                  href="https://github.com/Nkhou/printf_42/"
+                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                >
+                  View Project →
+                </a>
+              </div>
+            </div>
+
+            {/* <!-- System Project: get_nextline --> */}
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+              <h3 className="text-xl font-bold mb-2">get_next_line</h3>
+              <p className="text-gray-400 mb-4">
+                Developed a function that reads a line from a file descriptor, with efficient buffer management and handling for multiple file descriptors.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {["C", "File I/O", "Memory Management", "Static Variables"].map((tech, key) => (
+                  <span
+                    key={key}
+                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+              <div className="flex justify-between items-center">
+                <a
+                  href="https://github.com/Nkhou/get_next_line_42"
+                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                >
+                  View Project →
+                </a>
+              </div>
+            </div>
+
+            {/* <!-- System Project: pushswap --> */}
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+              <h3 className="text-xl font-bold mb-2">push_swap</h3>
+              <p className="text-gray-400 mb-4">
+                Implemented an efficient sorting algorithm using two stacks with a limited set of operations, optimizing for the minimum number of moves.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {["C", "Algorithm Design", "Data Structures", "Complexity Optimization"].map((tech, key) => (
+                  <span
+                    key={key}
+                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+              <div className="flex justify-between items-center">
+                <a
+                  href="https://github.com/Nkhou/push_swap"
+                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                >
+                  View Project →
+                </a>
+              </div>
+            </div>
             {/* <!-- System Security Project: born2beroot --> */}
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <h3 className="text-xl font-bold mb-2">born2beroot</h3>
@@ -210,14 +311,6 @@ export const Projects = () => {
                     {tech}
                   </span>
                 ))}
-              </div>
-              <div className="flex justify-between items-center">
-                <a
-                  href="https://github.com/Nkhou/NetPractice"
-                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
-                >
-                  View Project →
-                </a>
               </div>
             </div>
           </div>
