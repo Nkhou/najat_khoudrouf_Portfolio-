@@ -1,13 +1,11 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import { LoadingScreen } from './components/LoadingScreen'
 import './App.css'
 import './index.css'
 import { Navbar } from './components/Navbar'
 import { MobileMenu } from './components/MobileMenu'
 import { Home } from './components/sections/Home'
-import  { About } from './components/sections/About'
+import Experience from './components/sections/Experience';
 import {Projects} from './components/sections/Projects'
 import { Contact } from './components/sections/Contact'
 
@@ -26,7 +24,7 @@ function App() {
         <Navbar menuIsopen={menuIsopen} setMenuIsopen={setMenuIsopen} />
         <MobileMenu menuIsopen={menuIsopen} setMenuIsopen={setMenuIsopen} />
         <Home />
-        <About />
+        <Experience/>
         <Projects/>
         <Contact />
       </div>

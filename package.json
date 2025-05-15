@@ -10,13 +10,16 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy":"gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.1",
     "emailjs-com": "^3.2.0",
+    "framer-motion": "^12.11.4",
+    "prop-types": "^15.8.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-vertical-timeline-component": "^3.5.3",
     "tailwindcss": "^4.1.1"
   },
   "devDependencies": {
