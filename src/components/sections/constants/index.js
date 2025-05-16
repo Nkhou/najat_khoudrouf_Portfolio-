@@ -19,8 +19,6 @@ import {
   fpk,
   google,
   ibm,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
@@ -122,7 +120,7 @@ const experiences = [
     company_name: "Intensive Software Engineering Program",
     icon: icon42,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "",
     points: [
       "Completed the rigorous Common Core curriculum at École 1337, part of the prestigious global 42 Network. This peer-to-peer learning program focused on project-based software development with emphasis on algorithms, system programming, and collaborative problem-solving.",
       "Mastered fundamental and advanced programming concepts through hands-on projects including operating systems, web development, and algorithmic challenges.",
@@ -133,7 +131,7 @@ const experiences = [
     company_name: "Bachelor's Degree in Mathematical and Computer Sciences",
     icon: fpk,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "",
     points: [
       "Gained strong theoretical and practical foundations in mathematics and computer science through a comprehensive curriculum covering discrete mathematics, calculus, linear algebra, data structures, algorithms, and software development methodologies.",
       "CMathematical modeling, algorithmic thinking, software architecture, and problem-solving",
@@ -144,7 +142,7 @@ const experiences = [
     company_name: "Google/Coursera",
     icon: google,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "",
     points: [
       "Developing practical Python programming skills for automating IT tasks, managing systems, and solving real-world problems. The program covers Python fundamentals, Git and GitHub, troubleshooting techniques, configuration management, and automation at scale",
       "Crash Course on Python",
@@ -160,7 +158,7 @@ const experiences = [
     company_name: "IBM/Coursera",
     icon: ibm,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "",
     points: [
       "Mastered Agile methodologies and Scrum framework for efficient project management and software development.",
     ],
@@ -170,7 +168,7 @@ const experiences = [
     company_name: "IBM/Coursera",
     icon: ibm,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "",
     points: [
       "Acquired fundamental knowledge of cloud technologies, service models, and deployment strategies.",
     ],
@@ -180,7 +178,7 @@ const experiences = [
     company_name: "IBM and ISC2",
     icon: ibm,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "",
     points: [
       "Developed understanding of core cybersecurity concepts, threats, and protective measures.",
     ],

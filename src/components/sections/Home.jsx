@@ -12,7 +12,7 @@ export const Home = () => {
                         Hi, Najat Khoudrouf
                     </h1>
 
-                    <p className="tex-gray-400 text-lg mb-8 max-w-lg mx-auto">
+                    <p className="text-lg mb-8 ">
                         I'm a passionate software developer with a strong foundation in computer science and systems programming. I hold a Bachelor's degree in Computer Science and have recently completed the rigorous Common Core curriculum at 42 School, known for its project-based, peer-to-peer learning approach.
                     </p>
                     <div className="flex justify-center space-x-4">
