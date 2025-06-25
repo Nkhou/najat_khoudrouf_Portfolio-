@@ -77,10 +77,10 @@ export const Navbar = ({ menuIsopen, setMenuIsopen }) => {
               onClick={() => setMenuIsopen(false)}>
               Home
             </a>
-            <a href="#about" className="text-gray-300 hover:text-white hover:bg-white/10 transition-colors px-4 sm:px-6 py-3 sm:py-4 border-b border-white/5 text-sm sm:text-base"
+            {/* <a href="#about" className="text-gray-300 hover:text-white hover:bg-white/10 transition-colors px-4 sm:px-6 py-3 sm:py-4 border-b border-white/5 text-sm sm:text-base"
               onClick={() => setMenuIsopen(false)}>
               About
-            </a>
+            </a> */}
             <a href="#projects" className="text-gray-300 hover:text-white hover:bg-white/10 transition-colors px-4 sm:px-6 py-3 sm:py-4 border-b border-white/5 text-sm sm:text-base"
               onClick={() => setMenuIsopen(false)}>
               Projects
