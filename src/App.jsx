@@ -16,11 +16,13 @@ function App() {
       <div className={`min-h-screen transition-opacity duration-700 ${
         isLoading ? "opacity-100" : "opacity-0"
       } bg-black text-gray-100`}>
+        <div className="pt-16">
         <Navbar menuIsopen={menuIsopen} setMenuIsopen={setMenuIsopen} />
         <Home />
         <Experience />
         <Projects />
         <Contact />
+        </div>
       </div>
     </>
   )

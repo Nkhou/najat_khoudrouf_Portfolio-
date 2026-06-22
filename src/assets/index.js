@@ -27,6 +27,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import icon42 from "./company/icon42.png";
+import sphere_bleue from "./company/sphere_bleue.jpg";
 import fpk from "./company/fpk.png";
 import google from "./company/google.png";
 import ibm from "./company/ibm.png";
@@ -68,4 +69,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  sphere_bleue,
 };

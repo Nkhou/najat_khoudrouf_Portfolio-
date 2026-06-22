@@ -10,14 +10,11 @@ export const Navbar = ({ menuIsopen, setMenuIsopen }) => {
   }, [menuIsopen]);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 w-full z-40 bg-[rgba(10,10,10,0.8)] backdrop-blur-lg border-b border-white/10 shadow-lg">
+    <nav className="fixed top-0 left-0 right-0 w-full z-40 bg-[rgba(10,10,10,0.8)] backdrop-blur-lg border-b border-white/10 shadow-lg ">
       <div className=" mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <a 
-            href="#home" 
-            className="font-mono text-sm xs:text-base sm:text-lg md:text-xl font-bold text-white truncate max-w-[140px] xs:max-w-[160px] sm:max-w-[200px] md:max-w-none"
-          >
+         <a className="text-white text-sm xl:text-xl">
             <span className="text-blue-500">najat khoudrouf</span>
           </a>
 

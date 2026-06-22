@@ -16,6 +16,7 @@ import {
   figma,
   docker,
   icon42,
+  sphere_bleue,
   fpk,
   google,
   ibm,
@@ -115,6 +116,19 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "internship as software engineer",
+    company_name: "Sphere Bleue",
+    icon: sphere_bleue,
+    iconBg: "#383E56",
+    date: "",
+    points: [
+      "Full-stack development (React + Django): implementation of new features, ORM optimization, and API serialization improvements",
+      "Design and documentation of RESTful APIs (JWT authentication, role management, business workflows); optimization of PostgreSQL schemas and query plans",
+      "Setup of multi-service Docker environments, CI/CD integration",
+      "Writing technical specifications and developing unit and functional tests",
+              ],
+  },
   {
     title: "École 1337 (Network 42)",
     company_name: "Intensive Software Engineering Program",
